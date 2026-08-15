@@ -40,3 +40,8 @@ python fetch_estat.py --profile crime-related
 | 行政基盤 | `0000020204` | — |
 
 出典: 総務省 社会・人口統計体系（e-Stat）。政府の公式見解ではない加工データです。
+
+## 相関分析（設計）
+
+- [`analysis/DESIGN.md`](analysis/DESIGN.md) … 単位・Y・事業所ファミリーを含む X・手順
+- [`analysis/item_dictionary.csv`](analysis/item_dictionary.csv) … コード辞書（Tier A1 に飲食・小売・娯楽・製造業など）
