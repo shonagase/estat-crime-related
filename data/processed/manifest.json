@@ -1,0 +1,196 @@
+{
+  "fetched_at": "2026-08-15T04:44:24.240401+00:00",
+  "profile": "crime-related",
+  "source": "e-Stat API 3.0 / 社会・人口統計体系 00200502",
+  "tables": {
+    "0000020201": {
+      "field": "A",
+      "name": "人口・世帯",
+      "kind": "basic",
+      "why": "総人口・年齢・単独世帯・昼間人口など。犯罪率の分母と都市化の共変量。",
+      "rows": 1890825,
+      "items": 134,
+      "areas": 1913,
+      "times": 45,
+      "path": "data/raw/0000020201.parquet"
+    },
+    "0000020203": {
+      "field": "C",
+      "name": "経済基盤",
+      "kind": "basic",
+      "why": "課税対象所得、事業所・従業者。飲食・商業密度の公式値。",
+      "rows": 1923226,
+      "items": 199,
+      "areas": 1913,
+      "times": 45,
+      "path": "data/raw/0000020203.parquet"
+    },
+    "0000020205": {
+      "field": "E",
+      "name": "教育",
+      "kind": "basic",
+      "why": "学校・進学・最終学歴。社会解体理論でよく置く共変量。",
+      "rows": 966833,
+      "items": 22,
+      "areas": 1913,
+      "times": 45,
+      "path": "data/raw/0000020205.parquet"
+    },
+    "0000020206": {
+      "field": "F",
+      "name": "労働",
+      "kind": "basic",
+      "why": "労働力・完全失業者・産業別就業者。",
+      "rows": 718761,
+      "items": 65,
+      "areas": 1913,
+      "times": 9,
+      "path": "data/raw/0000020206.parquet"
+    },
+    "0000020211": {
+      "field": "K",
+      "name": "安全",
+      "kind": "basic",
+      "why": "刑法犯・窃盗などの件数（犯罪の本体）。",
+      "rows": 112643,
+      "items": 2,
+      "areas": 1913,
+      "times": 30,
+      "path": "data/raw/0000020211.parquet"
+    },
+    "0000020301": {
+      "field": "A",
+      "name": "人口・世帯（指標）",
+      "kind": "indicator",
+      "why": "高齢化率・単独世帯割合など人口あたり。",
+      "rows": 229560,
+      "items": 26,
+      "areas": 1913,
+      "times": 11,
+      "path": "data/raw/0000020301.parquet"
+    },
+    "0000020304": {
+      "field": "D",
+      "name": "行政基盤（指標）",
+      "kind": "indicator",
+      "why": "納税義務者1人当たり課税対象所得。",
+      "rows": 122432,
+      "items": 4,
+      "areas": 1913,
+      "times": 40,
+      "path": "data/raw/0000020304.parquet"
+    },
+    "0000020305": {
+      "field": "E",
+      "name": "教育（指標）",
+      "kind": "indicator",
+      "why": "進学率・最終学歴割合。",
+      "rows": 252516,
+      "items": 3,
+      "areas": 1913,
+      "times": 44,
+      "path": "data/raw/0000020305.parquet"
+    },
+    "0000020306": {
+      "field": "F",
+      "name": "労働（指標）",
+      "kind": "indicator",
+      "why": "完全失業率・産業別就業者比率。",
+      "rows": 80346,
+      "items": 9,
+      "areas": 1913,
+      "times": 9,
+      "path": "data/raw/0000020306.parquet"
+    },
+    "0000020311": {
+      "field": "K",
+      "name": "安全（指標）",
+      "kind": "indicator",
+      "why": "刑法犯・窃盗の人口あたり、検挙率、罪種構成比。",
+      "rows": 22956,
+      "items": 2,
+      "areas": 1913,
+      "times": 6,
+      "path": "data/raw/0000020311.parquet"
+    },
+    "0000020204": {
+      "field": "D",
+      "name": "行政基盤",
+      "kind": "basic",
+      "why": "課税・財政。1人当たり所得の元データ。",
+      "rows": 3715096,
+      "items": 87,
+      "areas": 1913,
+      "times": 45,
+      "path": "data/raw/0000020204.parquet"
+    },
+    "0000020207": {
+      "field": "G",
+      "name": "文化・スポーツ",
+      "kind": "basic",
+      "why": "娯楽・集会施設。繁華街・滞在機会の代理。",
+      "rows": 42070,
+      "items": 2,
+      "areas": 1913,
+      "times": 11,
+      "path": "data/raw/0000020207.parquet"
+    },
+    "0000020208": {
+      "field": "H",
+      "name": "居住",
+      "kind": "basic",
+      "why": "持ち家・借家・空き家。監視・流動の代理。",
+      "rows": 3362659,
+      "items": 232,
+      "areas": 1913,
+      "times": 45,
+      "path": "data/raw/0000020208.parquet"
+    },
+    "0000020210": {
+      "field": "J",
+      "name": "福祉・社会保障",
+      "kind": "basic",
+      "why": "生活保護等。都市化と共変しやすい。原因としては使わない。",
+      "rows": 1541258,
+      "items": 61,
+      "areas": 1913,
+      "times": 44,
+      "path": "data/raw/0000020210.parquet"
+    },
+    "0000020303": {
+      "field": "C",
+      "name": "経済基盤（指標）",
+      "kind": "indicator",
+      "why": "産業構成比など。",
+      "rows": 53564,
+      "items": 2,
+      "areas": 1913,
+      "times": 14,
+      "path": "data/raw/0000020303.parquet"
+    },
+    "0000020308": {
+      "field": "H",
+      "name": "居住（指標）",
+      "kind": "indicator",
+      "why": "持ち家率など。",
+      "rows": 128171,
+      "items": 11,
+      "areas": 1913,
+      "times": 20,
+      "path": "data/raw/0000020308.parquet"
+    },
+    "0000020310": {
+      "field": "J",
+      "name": "福祉・社会保障（指標）",
+      "kind": "indicator",
+      "why": "保護率など。",
+      "rows": 9565,
+      "items": 2,
+      "areas": 1913,
+      "times": 5,
+      "path": "data/raw/0000020310.parquet"
+    }
+  },
+  "long_rows": 15172481,
+  "latest_rows": 1631450
+}
