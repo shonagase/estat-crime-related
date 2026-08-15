@@ -1,0 +1,2 @@
+# Git で追跡するのは最新断面だけ
+# municipal_latest.parquet / manifest.json は Actions が更新する

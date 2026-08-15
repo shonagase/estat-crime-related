@@ -1,0 +1,10 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# 作業用・大きい中間物はコミットしない
+data/raw/
+data/processed/municipal_long.parquet
+*.csv
